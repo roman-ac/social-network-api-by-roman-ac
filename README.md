@@ -1,5 +1,5 @@
 
-# Siocial-Network-API
+# Social-Network-API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -37,10 +37,6 @@ chrome-extension://
 <br /> 
 
 ![screenshot](./assets/screenshot1.png)
-<br /> 
-<br /> 
-
-![screenshot](./assets/screenshot2.png)
 <br /> 
 <br /> 
 

@@ -65,13 +65,7 @@ const names = [
   'Grace',
   'Kelsey',
   'Tamar',
-  'Alex',
-  'Mark',
-  'Tamar',
-  'Farish',
-  'Sarah',
-  'Nathaniel',
-  'Parker',
+  
 ];
 
 const appDescriptions = [
