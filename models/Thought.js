@@ -6,7 +6,7 @@ const moment = require('moment');
 const ThoughtSchema = new Schema(
   {
     thoughtText: {
-      type: string,
+      type: String,
       required: true,
       minlength: 1,
       maxlength: 280,
@@ -19,7 +19,7 @@ const ThoughtSchema = new Schema(
       get: (createdAtVal) => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
     },
     username: {
-      type: string,
+      type: String,
       required: true,
     },
     reactions: [ReactionSchema]
@@ -34,7 +34,7 @@ const ThoughtSchema = new Schema(
 );
 
 // getting total count of reactions
-ThoughtsSchema.virtual('reactionCount')
+ThoughtSchema.virtual('reactionCount')
 
 .get(function() {
   return this.reactions.length;
