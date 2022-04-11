@@ -48,6 +48,9 @@ chrome-extension://
 <br /> 
 <br /> 
 
+![screenshot](./assets/screenshot2.png)
+<br /> 
+<br /> 
 
 ## Contributors
   ### Reach out here: 
