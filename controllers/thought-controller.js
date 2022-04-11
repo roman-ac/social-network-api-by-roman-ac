@@ -14,9 +14,9 @@ const thoughtController = {
             });
     },
 
-    // get one user by id
+    // get one thought by id
     getThoughtById({ params }, res) {
-        Thought.findOne({ _id: params.thoughtId })
+        Thought.findOne({ _id: params.id })
             // .populate ({path: 'reactions'})
             // .select('-__v)
             .then(dbThoughtData => {
