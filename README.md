@@ -13,13 +13,21 @@
 
 ## User Story
 
-    As a member of cummunity/society i would like to build an web applicaiton where users can post the help they need with a particular task and display under their profile. simultaneously, An user can also search and browse task by other users and offer help as a volunteer.
+AS A social media startup, I WANT an API for my social network that uses a NoSQL database. So THAT my website can handle large amounts of unstructured data.
     
 
 ## Mission
-    * to build an web application that allows users who need help to post their task and also view and accept tasks posted by other users
-    * a task location is to attached to the task so the volunteer can calculate the distance in between
-    * have a clean, polished and responsive user interface
+
+    GIVEN a social network API
+
+* WHEN I enter the command to invoke the application
+    THEN my server is started and the Mongoose models are synced to the MongoDB database
+* WHEN I open API GET routes in Insomnia for users and thoughts
+    THEN the data for each of these routes is displayed in a formatted JSON
+* WHEN I test API POST, PUT, and DELETE routes in Insomnia
+  THEN I am able to successfully create, update, and delete users and thoughts in my database
+* WHEN I test API POST and DELETE routes in Insomnia
+  THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 
 ## GITHUB page
